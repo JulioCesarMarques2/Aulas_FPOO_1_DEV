@@ -10,7 +10,6 @@ public class salario {
         double salario2 = 1350.00;
         double valor2 = 20.250 + (salario2);
         System.out.println("Desconto abaixo de 1350.00 = " + valor2);
-        System.out.println("Teste");
     }
 
 }
