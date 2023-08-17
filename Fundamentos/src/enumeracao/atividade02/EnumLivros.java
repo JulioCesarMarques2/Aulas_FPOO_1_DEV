@@ -9,11 +9,11 @@ package enumeracao.atividade02;
  * @author Aluno
  */
 public enum EnumLivros {
-    LIVRO("Livro1"),
-    LIVRO1("Livro2"), 
-    LIVROS2("Livros3"), 
-    LIVROS3("Livros4"), 
-    LIVROS4("Livros5");
+    LIVRO("Drama"),
+    LIVRO1("Suspence"), 
+    LIVROS2("Romance"), 
+    LIVROS3("Aventura"), 
+    LIVROS4("Poesia");
     
     private String livro;
 
