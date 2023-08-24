@@ -16,16 +16,17 @@ public class Bicicleta {
     private int qtdeMarchs;
     private String modelo;
     private boolean temFreio;
-    private String cor;
+    private CorEnum cor;
     private String situacao;
     private int velocidade;
+    private int marcha;
 
     //constructor
     public Bicicleta() {
     }
 
     //constructor with arguments
-    public Bicicleta(int qtdeRodas, boolean temMarchas, int qtdeMarchs, String modelo, boolean temFreio, String cor) {
+    public Bicicleta(int qtdeRodas, boolean temMarchas, int qtdeMarchs, String modelo, boolean temFreio, CorEnum cor, int marcha) {
         this.qtdeRodas = qtdeRodas;
         this.temMarchas = temMarchas;
         this.qtdeMarchs = qtdeMarchs;

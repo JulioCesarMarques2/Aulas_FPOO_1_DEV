@@ -10,13 +10,13 @@ package classes;
  */
 public class Garagem {
     public static void main(String[] args) {
-        Carro carro = new Carro("Nissan", "Preto", 4, 2005, "Uno");
-        carro.toString();
-        System.out.println(carro);
-        carro.andar(10);
-        carro.andar(20);
-        carro.andar(30);
-        System.out.println(carro);
+        Carro UNO = new Carro("UNO", CorEnum.ROXO, 7, 2005,
+                "NISSAN", true, 0);
+        UNO.trocarMarcha(MarchaEnum.PRIMEIRA_MARCHA);
+        UNO.trocarMarcha(MarchaEnum.SEGUNDA_MARCHA);
+        UNO.trocarMarcha(MarchaEnum.TERCEIRA_MARCHA);
+        UNO.trocarMarcha(MarchaEnum.QUARTA_MARCHA);
+        System.out.println(UNO);
     }
-    
 }
+    
