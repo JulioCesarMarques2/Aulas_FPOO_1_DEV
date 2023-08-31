@@ -18,11 +18,15 @@ public class Locadora {
         System.out.println(c1);
         double valorLocacaoSimples = c1.calcularLocacao(3);
         System.out.println("O Valor da locação simples é = " + valorLocacaoSimples);
+        c1.validarNome(c1.getNome());
+        c1.verificarEmailDominioGoogle(c1.getEmail());
         
         Cliente c2 = new Cliente("Rennata Sílva", "silvarennata@gmail.com");
         System.out.println(c2);
         double valorLocacaoNovos = c2.calcularLocacao(3, true);
         System.out.println("O Valor da locação de lançamentos é = " + valorLocacaoNovos);
+        c2.validarNome(c2.getNome());
+        c2.verificarEmailDominioGoogle(c2.getEmail());
         
     }
 }
